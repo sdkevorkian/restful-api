@@ -10,20 +10,20 @@ Modern web development revolves around creating APIs for this purpose. However, 
 
 By providing a RESTful API and sending data using a specific format (JSON), we can incorporate our server into multiple different applications.
 
-Why introduce this? We'll find that these concepts fit right into our next framework, **Angular.JS**. Near the end of the Angular unit, we'll be incorporating this API with an Angular app.
+Why introduce this? We'll find that these concepts fit right into **Angular.JS**.
 
-##Assignment
+##Requirements
 
 * Create a RESTful API using Express, Mongoose, and JWT for authentication
 * Do not incorporate any HTML or EJS templates, with the exception of the home page. Your API will provide the endpoints listed at the bottom.
 
-##Pair Programming
+###Pair Programming
 
 If you'd like, feel free to practice **pair programming** on this assignment. Definition:
 
 > Pair programming consists of two programmers sharing a single workstation (one screen, keyboard and mouse among the pair). The programmer at the keyboard is usually called the "driver", the other, also actively involved in the programming task but focusing more on overall direction is the "navigator"; it is expected that the programmers swap roles every few minutes or so. See more at: http://guide.agilealliance.org/guide/pairing.html#sthash.xsWVt7Ee.dpuf
 
-##API Endpoints (Minimum)
+###API Endpoints (Minimum)
 
 * Homepage (optional)
   * GET /
@@ -48,9 +48,19 @@ If you'd like, feel free to practice **pair programming** on this assignment. De
   * DELETE /api/coffees/:id
     * delete a specific coffee
 
-##Attributes for the Coffee model
+###Attributes for the Coffee model
 
 * Name
 * Size
 * Shots
 * Type of milk
+
+###Bonus
+
+* Add tests to your API using Mocha/Chai.
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
