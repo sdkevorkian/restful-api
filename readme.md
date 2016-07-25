@@ -6,7 +6,7 @@ In the past, we used API endpoints provided by iTunes and OMDB. These APIs provi
 
 Modern web development revolves around creating APIs for this purpose. However, there's some additional purposes, such as being able to use the server application with multiple **clients**. In Rails and Express, we assumed that our only client was a web browser. In reality, today's IOT (Internet of Things) provides the potential for unlimited clients, meaning we can't just send HTML to every client.
 
-![API](http://www.happiestminds.com/pes-solutions/web-scraping-api/img/api-services.png)
+![API](http://www.happiestminds.com/wp-content/themes/hmtheme/images/api-services.png)
 
 By providing a RESTful API and sending data using a specific format (JSON), we can incorporate our server into multiple different applications.
 
