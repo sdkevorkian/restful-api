@@ -58,6 +58,7 @@ If you'd like, feel free to practice **pair programming** on this assignment. De
 ###Bonus
 
 * Add tests to your API using Mocha/Chai.
+* Add an AngularJS application that consumes this API.
 
 ---
 
